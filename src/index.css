@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 240 5% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 340 82% 67%;
+    --primary: 200 100% 60%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 240 5% 15%;
@@ -26,22 +26,22 @@ All colors MUST be HSL.
     --muted: 240 5% 15%;
     --muted-foreground: 240 5% 65%;
 
-    --accent: 20 75% 65%;
-    --accent-foreground: 240 6% 6%;
+    --accent: 220 70% 50%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 240 5% 20%;
     --input: 240 5% 20%;
-    --ring: 340 82% 67%;
+    --ring: 200 100% 60%;
 
     --radius: 0.75rem;
 
     /* Custom portfolio tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(340 82% 67%) 0%, hsl(20 75% 65%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(240 6% 6%) 0%, hsl(240 5% 10%) 100%);
-    --shadow-glow: 0 0 60px hsl(340 82% 67% / 0.15);
+    --gradient-primary: linear-gradient(135deg, hsl(220 70% 50%) 0%, hsl(200 100% 60%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(240 6% 6%) 0%, hsl(220 20% 12%) 100%);
+    --shadow-glow: 0 0 60px hsl(200 100% 60% / 0.15);
     --shadow-card: 0 8px 30px hsl(0 0% 0% / 0.4);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
